@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dion Senowijaya - Portfolio</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo" aria-label="Home">
+            My<span>Portfolio</span>
+        </a>
+
+        <nav class="navbar" aria-label="Main Navigation">
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="#contact" class="contact-btn" aria-label="Contact Me">
+            Contact Me
+        </a>
+    </header>
+
+    <main>
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1>Hi, I'm <span>Dion Senowijaya</span></h1>
+                <h2>Web Developer</h2>
+                <p>Creating beautiful and functional web experiences</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/DIONSENOWIJAYA21" target="_blank" aria-label="GitHub">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+
+            <div class="home-image">
+                <img src="img/IMG_20231202_191921_777.jpg" alt="" loading="lazy">
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-image">
+                <img src="img/IMG_20231202_191921_777.jpg" alt="About Dion" loading="lazy">
+            </div>
+
+            <div class="about-content">
+                <h2>About <span>Me</span></h2>
+                <p>
+                    A passionate web developer with expertise in creating responsive 
+                    and user-friendly web applications. I love solving problems and 
+                    bringing innovative ideas to life through code.
+                </p>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My <span>Projects</span></h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="img/Screenshot 2024-11-14 170443.png" alt="Cashier System Project" loading="lazy">
+                    <h3>Cashier Management System</h3>
+                    <p>Java-based point of sale application with comprehensive features</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/Screenshot 2024-11-14 172310.png" alt="" loading="lazy">
+                    <h3>Project Game D2</h3>
+                    <p>Interactive game developed using modern game development techniques</p>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact <span>Me</span></h2>
+            <form id="contact-form" aria-label="Contact Form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/DIONSENOWIJAYA21" target="_blank" aria-label="GitHub">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/dionswjy/" target="_blank" aria-label="Instagram">
+                <i class="bx bxl-instagram"></i>
+            </a>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <p>&copy; 2024 Dion Senowijaya. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
